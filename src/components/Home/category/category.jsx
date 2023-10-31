@@ -10,20 +10,20 @@ const category = () => {
             <div className='flex justify-center items-center'>
                 <div className='grid grid-cols-4 gap-10'>
                     <div className='flex flex-col items-center'>
-                        <FaGift className='text-[#00FFFF] category text-4xl p-1 rounded-full' />
-                        <p className='text-[#00FFFF]'>Rewards</p>
+                        <FaGift className='text-black category text-4xl p-1 rounded-full' />
+                        <p className='text-black'>Rewards</p>
                     </div>
                     <div className='flex flex-col items-center'>
-                        <FaPeopleRoof className='text-[#00FFFF] category text-4xl p-1 rounded-full' />
-                        <p className='text-[#00FFFF]'>Referrals</p>
+                        <FaPeopleRoof className='text-black category text-4xl p-1 rounded-full' />
+                        <p className='text-black'>Referrals</p>
                     </div>
                     <div className='flex flex-col items-center'>
-                        <FaRegNewspaper className='text-[#00FFFF] category text-4xl p-1 rounded-full' />
-                        <p className='text-[#00FFFF]'>News</p>
+                        <FaRegNewspaper className='text-black category text-4xl p-1 rounded-full' />
+                        <p className='text-black'>News</p>
                     </div>
                     <div className='flex flex-col items-center'>
-                        <FaPersonBooth className='text-[#00FFFF] category text-4xl p-1 rounded-full' />
-                        <p className='text-[#00FFFF]'>Tutorial</p>
+                        <FaPersonBooth className='text-black category text-4xl p-1 rounded-full' />
+                        <p className='text-black'>Tutorial</p>
                     </div>
                 </div>
             </div>

@@ -1,16 +1,17 @@
 import React from 'react';
 import { FaUserCircle, FaHeadphonesAlt } from 'react-icons/fa';
-import navLogo from "../../assets/navlogo.png"
+// import navLogo from "../../assets/navlogo.png"
 import noty from "../../assets/noty.png"
+import noty1 from "../../assets/nav2.png"
 import { Link } from 'react-router-dom';
 const Navbar = () => {
     return (
         <div className="container flex justify-between px-2 py-2 mb-4 items-center bg-[#000000] shadow-lg rounded-2xl text-white">
             <Link to="/profile" className='text-4xl text-black'>
-                <FaUserCircle className='bg-[#00BDC6] rounded-full' />
+                <FaUserCircle className='bg-white rounded-full' />
             </Link>
             <div>
-                <img src={navLogo} alt="" style={{ height: 25 }} />
+                <img src={noty1} alt="" style={{ height: 40 }} />
             </div>
             <div className='flex items-center gap-4'>
                 <Link to="/message"><button><FaHeadphonesAlt style={{ fontSize: "20px", color: "white" }} /></button></Link>
