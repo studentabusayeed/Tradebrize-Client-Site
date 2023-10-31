@@ -9,10 +9,10 @@ const Withdraw = () => {
             <ul>
                 <li className="font1">
                     <div className="flex justify-center gap-20">
-                        <div className=" text-white">
+                        <div className=" text-white font-semibold">
                             Maha** kumar Laha
                         </div>
-                        <div className="">
+                        <div className="font-semibold">
                             14 USDT
                         </div>
                     </div>
@@ -20,10 +20,10 @@ const Withdraw = () => {
                 </li>
                 <li className="font1">
                     <div className="flex justify-center gap-20">
-                        <div className=" text-white">
+                        <div className=" text-white font-semibold">
                             Maha** kumar Laha
                         </div>
-                        <div className="">
+                        <div className="font-semibold">
                             14 USDT
                         </div>
                     </div>
@@ -31,10 +31,10 @@ const Withdraw = () => {
                 </li>
                 <li className="font1">
                     <div className="flex justify-center gap-20">
-                        <div className=" text-white">
+                        <div className=" text-white font-semibold">
                             Maha** kumar Laha
                         </div>
-                        <div className="">
+                        <div className="font-semibold">
                             14 USDT
                         </div>
                     </div>
@@ -42,10 +42,10 @@ const Withdraw = () => {
                 </li>
                 <li className="font1">
                     <div className="flex justify-center gap-20">
-                        <div className=" text-white">
+                        <div className=" text-white font-semibold">
                             Maha** kumar Laha
                         </div>
-                        <div className="">
+                        <div className="font-semibold">
                             14 USDT
                         </div>
                     </div>

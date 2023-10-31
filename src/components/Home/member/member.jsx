@@ -10,10 +10,10 @@ const member = () => {
                 <ul>
                     <li className="font1">
                         <div className="flex justify-center gap-20">
-                            <div className=" text-white">
+                            <div className=" text-white font-semibold">
                                 Isra** Chowdhury
                             </div>
-                            <div className="">
+                            <div className="font-semibold">
                                 israfilhosen4**@**ail.com
                             </div>
                         </div>
@@ -21,10 +21,10 @@ const member = () => {
                     </li>
                     <li className="font1">
                         <div className="flex justify-center gap-20">
-                            <div className=" text-white">
+                            <div className=" text-white font-semibold">
                                 Isra** Chowdhury
                             </div>
-                            <div className="">
+                            <div className="font-semibold">
                                 israfilhosen4**@**ail.com
                             </div>
                         </div>
@@ -32,10 +32,10 @@ const member = () => {
                     </li>
                     <li className="font1">
                         <div className="flex justify-center gap-20">
-                            <div className=" text-white">
+                            <div className=" text-white font-semibold">
                                 Isra** Chowdhury
                             </div>
-                            <div className="">
+                            <div className="font-semibold">
                                 israfilhosen4**@**ail.com
                             </div>
                         </div>
@@ -43,10 +43,10 @@ const member = () => {
                     </li>
                     <li className="font1">
                         <div className="flex justify-center gap-20">
-                            <div className=" text-white">
+                            <div className=" text-white font-semibold">
                                 Isra** Chowdhury
                             </div>
-                            <div className="">
+                            <div className="font-semibold">
                                 israfilhosen4**@**ail.com
                             </div>
                         </div>
