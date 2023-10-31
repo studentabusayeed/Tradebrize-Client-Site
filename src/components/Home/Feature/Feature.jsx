@@ -3,7 +3,7 @@ import './Feature.css';
 const Feature = () => {
     return (
         <div className='bg-[#1E222D] hel mt-5 text-white rounded'>
-            <div className="bg-[#1E222D] flex items-center gap-5 justify-center">
+            <div className="bg-[#1E222D] flex items-center gap-3 justify-center">
                 <a rel="noopener noreferrer" href="#" className="flex items-center flex-shrink-0 px-2 py-1 bg-[#2A2E39] m-2 rounded-lg">Crypto</a>
                 <a rel="noopener noreferrer" href="#" className="flex items-center flex-shrink-0 px-2 py-1">Indices</a>
                 <a rel="noopener noreferrer" href="#" className="flex items-center flex-shrink-0 px-2 py-1">Futures</a>

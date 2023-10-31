@@ -21,7 +21,7 @@ const Message = () => {
                     <input type="file" name="files" id="files" className="px-6 py-12 inline dark:text-gray-400 dark:bg-gray-800" />
                 </div>
             </fieldset>
-            <div className='bg-[#087D7B] px-2 py-1 text-white flex mx-32 rounded-lg gap-2'>
+            <div className='bg-[#087D7B] px-2 py-1 text-white flex mx-24 rounded-lg gap-2'>
                 <FaTelegramPlane className='bg-[#139BD0] text-white rounded-full text-3xl p-1' />
                 <button className=''>Send Message</button>
             </div>
