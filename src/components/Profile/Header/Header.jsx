@@ -5,7 +5,7 @@ import navLogo from "../../../assets/navlogo.png";
 import { Link } from 'react-router-dom';
 const Header = () => {
     return (
-        <div className="container flex justify-between px-2 py-2 mb-4 items-center bg-[#000000] shadow-lg rounded-2xl text-white">
+        <div className="container flex justify-between px-2 py-2 mb-4 items-center bg-[#000000] shadow-lg text-white">
             <div className='flex justify-center gap-8 items-center'>
                 <Link to="/" className='text-lg text-black'>
                     <FaChevronLeft className='rounded-full text-white' />

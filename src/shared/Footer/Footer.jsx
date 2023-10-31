@@ -4,9 +4,8 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <div className='pb-2'>
-
-            <ul class="flex flex-wrap text-sm font-medium text-center justify-center items-center gap-10">
+        <div>
+            <ul class="flex flex-wrap text-sm bg-[#000000] py-2 font-medium text-center justify-center items-center gap-10">
                 <Link class="flex flex-col items-center">
                     <FaHome className='text-white text-2xl' />
                     <a href="#" class="inline-block text-white">

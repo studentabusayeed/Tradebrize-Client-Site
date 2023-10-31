@@ -6,7 +6,7 @@ import noty1 from "../../assets/nav2.png"
 import { Link } from 'react-router-dom';
 const Navbar = () => {
     return (
-        <div className="container flex justify-between px-2 py-2 mb-4 items-center bg-[#000000] shadow-lg rounded-2xl text-white">
+        <div className="container flex justify-between px-2 py-2 mb-4 items-center bg-[#000000] shadow-lg text-white">
             <Link to="/profile" className='text-4xl text-black'>
                 <FaUserCircle className='bg-white rounded-full' />
             </Link>

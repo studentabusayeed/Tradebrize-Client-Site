@@ -5,7 +5,7 @@ import Footer from '../../../shared/Footer/Footer';
 
 const MainProfile = () => {
     return (
-        <div className='pb-2'>
+        <div>
             <Header />
             <Outlet />
             <Footer />
