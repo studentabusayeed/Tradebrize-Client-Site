@@ -5,33 +5,33 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <div>
-            <ul class="flex flex-wrap text-sm bg-[#000000] py-2 font-medium text-center justify-center items-center gap-10">
+            <ul class="flex flex-wrap font12 bg-[#000000] py-3 font-medium text-center justify-center items-center gap-10">
                 <Link class="flex flex-col items-center">
-                    <FaHome className='text-white text-2xl' />
+                    <FaHome className='text-white font12' />
                     <a href="#" class="inline-block text-white">
                         Home
                     </a>
                 </Link>
-                <Link class="flex flex-col items-center">
-                    <FaChartBar className='text-white text-2xl' />
+                <Link to="/markets" class="flex flex-col items-center">
+                    <FaChartBar className='text-white font12' />
                     <a href="#" class="inline-block text-white">
                         Markets
                     </a>
                 </Link>
                 <Link class="flex flex-col items-center">
-                    <FaTextHeight className='text-white text-2xl' />
+                    <FaTextHeight className='text-white font12' />
                     <a href="#" class="inline-block text-white">
                         Trade
                     </a>
                 </Link>
-                <Link class="flex flex-col items-center">
-                    <FaListUl className='text-white text-2xl' />
+                <Link to="/position" class="flex flex-col items-center">
+                    <FaListUl className='text-white font12' />
                     <a href="#" class="inline-block text-white">
                         Position
                     </a>
                 </Link>
-                <Link class="flex flex-col items-center">
-                    <FaWallet className='text-white text-2xl' />
+                <Link to="/wallet" class="flex flex-col items-center">
+                    <FaWallet className='text-white font12' />
                     <a href="#" class="inline-block text-white">
                         Wallet
                     </a>

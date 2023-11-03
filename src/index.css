@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.trade-button {
+  @apply relative inline-block shadow-2xl border-2 rounded-md font-bold uppercase tracking-widest text-white;
+}
+
+.font12 {
+  font-size: 14px;
+}

@@ -7,7 +7,7 @@ const marque = () => {
         <div className='text-black w-[98%] mx-1 mt-4 mb-8 mar rounded-xl py-1 flex justify-center items-center gap-2'>
             <FaBullhorn className='pl-1 text-xl'/>
             <Marquee>
-                <div className='annoucement-test test1'>
+                <div className='annoucement-test test1 font12'>
                     <span>
                         Welcome To Tradebrize AI Smart Trade, We are Open 5 Days in a week.
                     </span>

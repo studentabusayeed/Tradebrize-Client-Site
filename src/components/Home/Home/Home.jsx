@@ -7,7 +7,7 @@ import Withdraw from '../Withdraw/Withdraw';
 import Feature from '../Feature/Feature';
 const Home = () => {
     return (
-        <div className='pb-20'>
+        <div className='pb-5'>
             <Friend />
             <Marquee />
             <Category />

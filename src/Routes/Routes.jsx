@@ -7,6 +7,14 @@ import ErrorPage from "../components/ErrorPage/ErrorPage";
 import Message from "../components/Message/Message";
 import NewProfile from "../components/Profile/MainProfile/NewProfile";
 import Notification from "../components/Notification/Notification";
+import Position from "../components/Position/Position";
+import Wallet from "../components/Wallet/Wallet";
+import Markets from "../components/Markets/Markets";
+import ProfileDetails from "../components/ProfileDetails/ProfileDetails";
+import Secutiry from "../components/Secutiry/Secutiry";
+import Support from "../components/Support/Support";
+import Login from "../components/Login/Login";
+import SignUp from "../components/SignUp/SignUp";
 
 export const router = createBrowserRouter([
     {
@@ -17,6 +25,14 @@ export const router = createBrowserRouter([
             {
                 path: "/",
                 element: <Home />
+            },
+            {
+                path: "/login",
+                element: <Login />
+            },
+            {
+                path: "signup",
+                element: <SignUp />
             }
         ]
     },
@@ -41,6 +57,30 @@ export const router = createBrowserRouter([
             {
                 path: "/notification",
                 element: <Notification />
+            },
+            {
+                path: "/position",
+                element: <Position />
+            },
+            {
+                path: "/wallet",
+                element: <Wallet />
+            },
+            {
+                path: "/markets",
+                element: <Markets />
+            },
+            {
+                path: "/profileDetails",
+                element: <ProfileDetails />
+            },
+            {
+                path: "/secutiry",
+                element: <Secutiry />
+            },
+            {
+                path: "/about",
+                element: <Support />
             }
         ]
     }
