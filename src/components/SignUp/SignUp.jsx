@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaRegEnvelope, FaUser } from 'react-icons/fa';
+import { FaMobile, FaRegEnvelope, FaShare, FaUser } from 'react-icons/fa';
 import { MdLockOutline} from "react-icons/md";
 import { Link } from 'react-router-dom';
 import SocialLogin from '../../shared/Social/SocialLogin';
@@ -45,7 +45,7 @@ const SignUp = () => {
                         />
                     </div>
                     <div className="w-full flex items-center gap-2 border border-slate-500 hover:border-[#0fcda18c] px-2 rounded-lg bg-[#17181B] cursor-pointer">
-                        <FaRegEnvelope className="w-5 h-5 text-[#0fcda156]" />
+                        <FaShare className="w-5 h-5 text-[#0fcda156]" />
                         <input
                             className="flex-1 bg-transparent text-base outline-none py-2 text-white"
                             type="text"
@@ -55,7 +55,7 @@ const SignUp = () => {
                         />
                     </div>
                     <div className="w-full flex items-center gap-2 border border-slate-500 hover:border-[#0fcda18c] px-2 rounded-lg bg-[#17181B] cursor-pointer">
-                        <FaRegEnvelope className="w-5 h-5 text-[#0fcda156]" />
+                        <FaMobile className="w-5 h-5 text-[#0fcda156]" />
                         <input
                             className="flex-1 bg-transparent text-base outline-none py-2 text-white"
                             type="text"
