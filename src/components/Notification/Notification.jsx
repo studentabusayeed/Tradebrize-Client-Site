@@ -2,7 +2,7 @@ import React from 'react';
 
 const Notification = () => {
     return (
-            <section className='w-full text-white'>
+            <section className='w-full text-white h-screen'>
                 <div>
                     <div className="collapse collapse-plus flexcode-banner-bg rounded-none shadow-2xl mb-2 bg-[#0B8F86]">
                         <input type="radio" name="my-accordion-3" />
@@ -79,7 +79,7 @@ const Notification = () => {
                                 Please allow 5-10 minutes for your deposit to be seamlessly added to your Tradebrize Fund wallet.</p>
                         </div>
                     </div>
-                    <div className="collapse collapse-plus flexcode-banner-bg rounded-none shadow-2xl mb-2 bg-[#0B8F86]">
+                    <div className="collapse collapse-plus flexcode-banner-bg rounded-none shadow-2xl pb-20 mb-20 bg-[#0B8F86]">
                         <input type="radio" name="my-accordion-3" />
                         <div className="collapse-title font12 font-medium text-[#D9E6A7]" >
                             Effortless Deposit Process for Your Tradebrize Account

@@ -2,7 +2,7 @@ import React from 'react';
 import './Markets.css';
 const Markets = () => {
     return (
-        <div className='bg-[#1E222D] hel text-white'>
+        <div className='bg-[#1E222D] hel text-white h-screen'>
             <div className="bg-[#1E222D] flex items-center gap-3 justify-center font12">
                 <a rel="noopener noreferrer" href="#" className="flex items-center flex-shrink-0 px-2 py-1 bg-[#2A2E39] m-2 rounded-lg">Crypto</a>
                 <a rel="noopener noreferrer" href="#" className="flex items-center flex-shrink-0 px-2 py-1">Indices</a>

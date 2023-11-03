@@ -3,7 +3,7 @@ import React from 'react';
 const Secutiry = () => {
 
     return (
-        <section className='w-full text-white'>
+        <section className='w-full text-white h-screen'>
             <div>
                 <div className="collapse collapse-plus rounded-none shadow-2xl mb-2 bg-[#0B8F86]">
                     <input type="radio" name="my-accordion-3" />
@@ -164,7 +164,7 @@ const Secutiry = () => {
                         </div>
                     </div>
                 </div>
-                <div className="collapse collapse-plus rounded-none shadow-2xl mb-2 bg-[#0B8F86]">
+                <div className="collapse collapse-plus rounded-none shadow-2xl pb-20 bg-[#0B8F86]">
                     <input type="radio" name="my-accordion-3" />
                         <div className="collapse-title flex justify-between" >
                             <button className='text-white font-bold font12'>Phone Number</button>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Support = () => {
     return (
-        <div className='p-10'>
+        <div className='px-8 pt-8 pb-24'>
             <h4 className="font12 font-bold">About Us</h4>
             <p className="mt-2 font12">
                 At Tradebrize, we are at the forefront of the cryptocurrency revolution, dedicated to providing a seamless and secure trading experience for individuals and institutions. Founded by a team of passionate crypto enthusiasts and financial experts, we understand the transformative potential of blockchain technology and digital assets.

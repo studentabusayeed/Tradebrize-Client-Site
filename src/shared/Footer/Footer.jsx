@@ -1,11 +1,12 @@
 import React from 'react';
-import { FaHome, FaChartBar, FaTextHeight, FaListUl, FaWallet} from 'react-icons/fa';
+import { FaHome, FaChartBar, FaTextHeight, FaListUl, FaWallet } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import './Footer.css';
 
 const Footer = () => {
     return (
-        <div>
-            <ul class="flex flex-wrap font12 bg-[#000000] py-3 font-medium text-center justify-center items-center gap-10">
+        <div className=''>
+            <ul class="flex footer max-w-sm mx-auto flex-wrap font12 bg-[#000000] py-3 font-medium text-center justify-center items-center gap-10">
                 <Link class="flex flex-col items-center">
                     <FaHome className='text-white font12' />
                     <a href="#" class="inline-block text-white">
@@ -18,7 +19,7 @@ const Footer = () => {
                         Markets
                     </a>
                 </Link>
-                <Link class="flex flex-col items-center">
+                <Link to="/trade" class="flex flex-col items-center">
                     <FaTextHeight className='text-white font12' />
                     <a href="#" class="inline-block text-white">
                         Trade
@@ -37,7 +38,6 @@ const Footer = () => {
                     </a>
                 </Link>
             </ul>
-
         </div>
     );
 };

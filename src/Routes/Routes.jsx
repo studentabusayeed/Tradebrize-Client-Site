@@ -15,6 +15,7 @@ import Secutiry from "../components/Secutiry/Secutiry";
 import Support from "../components/Support/Support";
 import Login from "../components/Login/Login";
 import SignUp from "../components/SignUp/SignUp";
+import Trade from "../components/Trade/Trade";
 
 export const router = createBrowserRouter([
     {
@@ -81,6 +82,10 @@ export const router = createBrowserRouter([
             {
                 path: "/about",
                 element: <Support />
+            },
+            {
+                path: "/trade",
+                element: <Trade />
             }
         ]
     }
