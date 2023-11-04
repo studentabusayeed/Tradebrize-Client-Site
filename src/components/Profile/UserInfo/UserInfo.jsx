@@ -26,7 +26,7 @@ const UserInfo = () => {
                             <p className='font-bold font12'>Verify your identity</p>
                         </div>
                     </div>
-                    <p className='text-right'><button className='bg-white font12 rounded-xl text-black px-2 py-1'>Verify</button></p>
+                    <p className='text-right'><button className='bg-white font12 text-black px-2 py-1'>Verify</button></p>
                 </div>
             </div>
             <div className='flex justify-center bg-[#1B1B1B] mt-3 rounded-2xl'>

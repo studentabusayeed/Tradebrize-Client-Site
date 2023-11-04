@@ -5,8 +5,8 @@ import wal from "../../assets/wallet.png"
 
 const Wallet = () => {
     return (
-        <div className=''>
-            <Tabs className="text-center font12">
+        <div className='h-screen'>
+            <Tabs className="text-center font12 pb-6">
                 <TabList className="font-bold cursor-pointer py-4 pt-2 text-black grid grid-cols-4 justify-center">
                     <Tab className="border-b-2 border-transparent rounded-t-lg border-gray-300 hover:border-gray-500 ">Spot</Tab>
                     <Tab>Funding</Tab>
@@ -17,7 +17,7 @@ const Wallet = () => {
                 <TabPanel>
                     <div className='text-start mb-10 font12'>
                         <p className='ml-6 font-bold text-black mb-3'>0.00 USDT</p>
-                        <button type="button" className="ml-4 px-8 py-3 font-semibold rounded-xl bg-[white] text-black">Transfer</button>
+                        <button type="button" className="ml-4 px-8 py-3 font-semibold bg-[white] text-black">Transfer</button>
                         <div className='text-white flex justify-between gap-2 p-5 mt-5 rounded-2xl items-center bg-[#1B1B1B]'>
                             <div>
                                 <div className='text-[#84FFE9]'>
@@ -36,9 +36,9 @@ const Wallet = () => {
                     <div className='text-start mb-10 font12'>
                         <p className='ml-6 font-bold text-black mb-3'>0.00 USDT</p>
                         <div className='grid grid-cols-3 justify-center'>
-                            <button type="button" className="px-3 mx-2 py-2 font-semibold rounded-xl bg-[white] text-black font12">Add Fund</button>
-                            <button type="button" className="px-3 mx-2 py-2 font-semibold rounded-xl bg-[white] text-black font12">Withdraw</button>
-                            <button type="button" className="mx-2 px-3 py-2 font-semibold rounded-xl bg-[white] text-black font12">Transfer</button>
+                            <button type="button" className="px-3 mx-2 py-2 font-semibold bg-[white] text-black font12">Add Fund</button>
+                            <button type="button" className="px-3 mx-2 py-2 font-semibold bg-[white] text-black font12">Withdraw</button>
+                            <button type="button" className="mx-2 px-3 py-2 font-semibold bg-[white] text-black font12">Transfer</button>
                         </div>
                         <div className='text-white flex justify-between gap-2 p-5 mt-5 rounded-2xl items-center bg-[#1B1B1B]'>
                             <div>
@@ -58,8 +58,8 @@ const Wallet = () => {
                     <div className='text-start mb-10 font12'>
                         <p className='ml-6 font-bold text-black mb-3'>0.00 USDT</p>
                         <div className='flex justify-start gap-5 items-center'>
-                            <button type="button" className="ml-4 px-8 py-3 font-semibold rounded-xl bg-[white] text-black">Transfer</button>
-                            <p className='bg-white px-4 py-2 rounded-lg'><FaTableList className='text-2xl bg-white text-black'></FaTableList></p>
+                            <button type="button" className="ml-4 px-8 py-3 font-semibold bg-[white] text-black">Transfer</button>
+                            <p className='bg-white px-4 py-2'><FaTableList className='text-2xl bg-white text-black'></FaTableList></p>
                         </div>
                         <div className='text-white flex justify-between gap-2 p-5 mt-5 rounded-2xl items-center bg-[#1B1B1B]'>
                             <div>

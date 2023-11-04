@@ -16,6 +16,7 @@ import Support from "../components/Support/Support";
 import Login from "../components/Login/Login";
 import SignUp from "../components/SignUp/SignUp";
 import Trade from "../components/Trade/Trade";
+import LogReg from "../components/LogReg/LogReg";
 
 export const router = createBrowserRouter([
     {
@@ -46,6 +47,10 @@ export const router = createBrowserRouter([
                 element: <ProfileHome />
             }
         ]
+    },
+    {
+        path: "/tradebrige",
+        element: <LogReg />
     },
     {
         path: "/",

@@ -6,7 +6,7 @@ import './Footer.css';
 const Footer = () => {
     return (
         <div className=''>
-            <ul class="flex footer max-w-sm mx-auto flex-wrap font12 bg-[#000000] py-3 font-medium text-center justify-center items-center gap-10">
+            <ul class="flex footer max-w-sm mx-auto flex-wrap font12 bg-[#000000] py-3 font-medium text-center justify-center items-center gap-8">
                 <Link class="flex flex-col items-center">
                     <FaHome className='text-white font12' />
                     <a href="#" class="inline-block text-white">

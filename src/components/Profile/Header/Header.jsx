@@ -3,6 +3,7 @@ import { FaHeadphonesAlt, FaChevronLeft } from 'react-icons/fa';
 import { FaUserGear } from "react-icons/fa6";
 import navLogo from "../../../assets/nav2.png";
 import { Link } from 'react-router-dom';
+import forec from "../../../assets/forex.png";
 const Header = () => {
     return (
         <div className="container flex justify-between px-2 py-2 items-center bg-[#000000] shadow-lg text-white">
@@ -11,7 +12,7 @@ const Header = () => {
                     <FaChevronLeft className='rounded-full text-white' />
                 </Link>
                 <div>
-                    <img src={navLogo} alt="" style={{ height: 25 }} />
+                    <img src={forec} alt="" style={{ height: 25, borderRadius: "5px" }} />
                 </div>
             </div>
             <div className='flex items-center gap-2'>
